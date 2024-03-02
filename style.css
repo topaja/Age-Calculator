@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://cdn.nimbusthemes.com/2017/09/09233341/Free-Nature-Backgrounds-Seaport-During-Daytime-by-Pexels.jpeg);
+  font-family: cursive;
+}
+.blur-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://cdn.nimbusthemes.com/2017/09/09233341/Free-Nature-Backgrounds-Seaport-During-Daytime-by-Pexels.jpeg");
+  filter: blur(5px);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box {
+  width: 600px;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  z-index: 1;
+}
+.part1 {
+  display: flex;
+  padding: 30px;
+  justify-content: space-around;
+}
+.box h1 {
+  text-align: center;
+  color: palevioletred;
+}
+#display {
+  width: 100%;
+  height: 80px;
+  border: none;
+  outline: none;
+  padding: 20px;
+  background: transparent;
+}
+.btn {
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: palevioletred;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 420px) {
+  .box {
+    width: 350px;
+    height: 330px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+  }
+}
+
+input {
+  padding: 6px;
+  margin-left: 8px;
+}
+p {
+  margin-top: 15px;
+  font-size: 20px;
+}
+#display {
+  font-size: 20px;
+}
